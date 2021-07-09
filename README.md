@@ -16,7 +16,7 @@ export NANO_NAME=nano-test
 export NANO_TAG=V22.0
 ```
 
-5. Many RPC commands require `enable_control` to be set to `true`. This is mentioned in the docs under the [Running a Node/Configuration](https://docs.nano.org/running-a-node/configuration/) page. Add this setting in the `Nano/config-rpc.toml` file:
+5. Many RPC commands require `enable_control` to be set to `true`. Reference: [Running a Node/Configuration](https://docs.nano.org/running-a-node/configuration/). Set this setting to `true` in the `Nano/config-rpc.toml` file:
 
 ```
 root@ubuntu:/home/z/Desktop/nano/Nano# cat config-rpc.toml 
@@ -50,9 +50,7 @@ curl -d '{ "action" : "version" }' [::1]:7076
 
 # RPC Commands
 
-List of Commands: 
-
-https://docs.nano.org/commands/rpc-protocol/
+List of Commands: https://docs.nano.org/commands/rpc-protocol/
 
 ## Block Count
 ```
@@ -128,9 +126,7 @@ Response:
 
 # CLI Commands
 
-List of Commands:
-
-https://docs.nano.org/commands/command-line-interface/
+List of Commands: https://docs.nano.org/commands/command-line-interface/
 
 To drop into a shell use command:
 ```
